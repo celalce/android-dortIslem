@@ -11,8 +11,9 @@ import com.celalalbayrak.projeodevi.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
+/*** burada iki sayı değişkeni oluşturuluyor ve Double olarak yapıldı.. */
 
-var number1 : Double? = null
+    var number1 : Double? = null 
     var number2 : Double? = null
     var sonuc : Double? = null
 
