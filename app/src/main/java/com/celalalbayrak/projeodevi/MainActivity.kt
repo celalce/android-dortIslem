@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-//bakalım bu yorum toplama 
+//bakalım bu yorum toplama fonksiyonudur. yeni bir yorumdur.
     fun toplama(view: View) {
     number1 = binding.editTextNumber1.text.toString().toDoubleOrNull()
         number2 = binding.editTextNumber2.text.toString().toDoubleOrNull()
