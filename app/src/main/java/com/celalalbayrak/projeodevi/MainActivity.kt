@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+//bu bir bölme fonksiyonudur. yeni bir yorum yapıyorum. ve yeni bir yorum daha 
 
     fun bolme(view: View) {
         number1 = binding.editTextNumber1.text.toString().toDoubleOrNull()
