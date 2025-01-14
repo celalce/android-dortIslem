@@ -65,7 +65,11 @@ class MainActivity : AppCompatActivity() {
             binding.textView.text = "Sonuc : "
         }
 
-    }fun carpma(view: View) {
+    }
+    
+    
+    //yeni bir çarpma fonksiyonu yorumu 
+    fun carpma(view: View) {
         number1 = binding.editTextNumber1.text.toString().toDoubleOrNull()
         number2 = binding.editTextNumber2.text.toString().toDoubleOrNull()
         if (number1 != null && number2 != null) {
