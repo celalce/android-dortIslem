@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+    // burdaki yorum satırı github üzerinden yazılmıştır.
 
 //bakalım bu yorum toplama fonksiyonudur. yeni bir yorumdur.
     fun toplama(view: View) {
